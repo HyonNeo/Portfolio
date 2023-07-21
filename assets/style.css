@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+*    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    font-family: 'Montserrat' , sans-serif;
+}
+
+
+h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+h4 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 350;
+}
+p {
+    font-size: 16px;
+    margin: 10 px 0;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container {
+    margin: auto;
+    max-width: 1500px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.experience {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+
+}
+.btn-outline {
+    background: transparent;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+
+#showcase {
+    background: url("../assets/images/showcase.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    padding:100px ;
+    
+}
+ #showcase .btn{
+    margin-top: 250px ;
+ }
+
+#navbar {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navbar a {
+    color: black;
+}
+#navbar h2 {
+    float: left;
+    padding: 16px;
+}
+#navbar ul {
+    list-style: none;
+   float: right;
+}
+#navbar ul li {
+    float:left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 25px;
+    text-align: center;
+}
+
+#proyects {
+    padding: 80px 0;
+}
+
+.proyects-row {
+    display: flex; 
+}
+.proyects-row img {
+    width: 15vw;
+}
+
+#About {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.about-row {
+    display: flex;
+}
+
+.about-row-experience,
+.about-me-row {
+    width: 50%;
+    padding-left: 50px ;
+}
+
+#contact {
+    padding: 80px 0;
+}
+.contact-row {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-row-icon {
+    width: 33%;
+    text-align: center;
+}
+.contact-row-icon img {
+    height: 60px;
+}
+
+#mainfooter {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+#bookmark-img{
+    width:67%
+}
+#proyect3{
+   margin-right: 150px;
+}
+#proyect2{
+    margin-right: 150px;
+}
+
+
+
+@media (max-width:900px) {
+
+    .about-row ,
+    .contact-row {
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-me-row {
+        text-align: center;
+    }
+}
