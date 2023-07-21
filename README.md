@@ -6,7 +6,7 @@ Its my own portfolio
 
 ## Installation
 
-The page to see the web is:https://hyonneo.github.io/portafolio/ 
+The page to see the web is:https://hyonneo.github.io/portfolio/ 
 
 ## Usage
 
